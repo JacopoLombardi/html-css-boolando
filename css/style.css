@@ -29,22 +29,42 @@ body{
 
 header{
    width: 100%;
-   height: 50px;
-   background-color: red;
+   height: auto;
+   background-color: rgb( 255, 105, 0);
+   justify-content: center;
 }
 
 .menu{
-   justify-content: ;
+   width: 1450px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+
+.categoria .selezione{
+   margin: 0 10px;
+   font-weight: 600;
+   color: white;
+   text-decoration: none;
+}
+
+.categoria .selezione:hover{
+   text-decoration: underline;
 }
 
 .logo{
    width: 150px;
 }
 
+.icon-start-menu{
+   color: white;
+   font-size: 20px;
+   margin: 0 8px;
+}
 
-
-
-
+.icon-start-menu:hover{
+   color: rgb(226, 226, 226);
+}
 
 
 
