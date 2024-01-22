@@ -32,13 +32,15 @@ header{
    height: auto;
    background-color: rgb( 255, 105, 0);
    justify-content: center;
+   z-index: 1;
+   top: 0;
 }
 
-.menu{
+.start-menu{
    width: 1450px;
    justify-content: space-between;
    align-items: center;
-   padding: 20px;
+   margin: 20px;
 }
 
 .categoria .selezione{
@@ -65,19 +67,26 @@ header{
 .icon-start-menu:hover{
    color: rgb(226, 226, 226);
 }
-
-
-
-
-
-
 /* FINE HEADER */
+
+
+
+
 
 .img{
    width: 470px;
    height: 670px;
    max-width: 100%;
 }
+
+
+
+/* inserito questa altezza perche senza faceva casino quando andavo in hover :( */
+.img-cuore-sconto{    
+   height: 670px;
+}
+
+
 
 .strike{
    text-decoration: line-through;
@@ -97,7 +106,6 @@ h2{
 .card{
    width: 470px;
    height: 740px;
-   margin-bottom: 30px;
 }
 
 /* INIZIO CUORE */
@@ -147,7 +155,6 @@ h2{
 
 .catalogo{
    justify-content: center;
-   margin-top: 100px;
 }
 
 .cards{
@@ -155,6 +162,7 @@ h2{
    height: 1700px;
    justify-content: space-around;
    flex-wrap: wrap;
+   margin-top: 130px;
 }
 
 /* INIZIO RELAXED */
@@ -260,3 +268,56 @@ h2{
    left: 0;
 }
 /* FINE MAGLIONE */
+
+
+
+
+
+/* INIZIO FOOTER */
+
+footer{
+   background-color: black;
+   justify-content: center;
+}
+
+.end-menu{
+   width: 1450px;
+   justify-content: space-between;
+}
+
+.informazioni{
+   color: white;
+}
+
+h3{
+   margin: 30px 0 15px 5px;
+}
+.info-clienti{
+   margin: 0 5px;
+   text-decoration: none;
+}
+
+.info-clienti:hover{
+   text-decoration: underline;
+}
+
+.social .lista-social a, .info-clienti, h4{
+   color: white;
+}
+
+.lista-social{
+   list-style: none;
+   flex-direction: row;
+}
+
+h4{
+   margin: 30px 0 0 8px;
+}
+
+.fa-brands{
+   font-size: 20px;
+   margin: 15px 5px;
+}
+/* FINE FOOTER */
+
+
